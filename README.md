@@ -13,4 +13,3 @@ ngrok http 8000
 http://localhost:8000/docs
 ## stress test 
 curl http://localhost:11434/api/chat -d "{\"model\":\"mistral\",\"messages\":[{\"role\":\"user\",\"content\":\"warm up\"}],\"stream\":false}"
-
